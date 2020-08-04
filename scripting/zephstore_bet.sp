@@ -39,7 +39,7 @@ public Plugin myinfo =
 	author = "azalty/rlevet",
 	description = "Allows players to bet credits. The more you bet, the more chances you have of winning.",
 	version = "1.0.0",
-	url = "github.com/rlevet"
+	url = "github.com/rlevet/sm-zephstore-bet"
 }
 
 public void OnPluginStart()
