@@ -38,7 +38,7 @@ public Plugin myinfo =
 	name = "Zeph store betting",
 	author = "azalty/rlevet",
 	description = "Allows players to bet credits. The more you bet, the more chances you have of winning.",
-	version = "1.0.0",
+	version = "1.0.1",
 	url = "github.com/rlevet/sm-zephstore-bet"
 }
 
@@ -49,6 +49,10 @@ public void OnPluginStart()
 	g_betTime = CreateConVar("zephstore_bet_time", "60.0", "Time they are allowed to bet (after zephstore_bet_delay - in seconds, float). If round ends before this time, betting will be canceled.");
 	g_betSpam = CreateConVar("zephstore_bet_spam", "5.0", "Minimum time between two usages of !bet command for one player, to prevent flooding (in seconds, float) - to disable, enter 0.0");
 	g_betHintUpdate = CreateConVar("zephstore_bet_hintupdate", "1.0", "Every how much seconds the hintbox (message at the center) updates (float, recommended to let as default)", _, true, 0.1, true, 2.0);
+	
+	
+	// Auto generate config file
+	AutoExecConfig();
 	
 	// Console cmds
 	RegConsoleCmd("sm_bet", Command_Bet);
