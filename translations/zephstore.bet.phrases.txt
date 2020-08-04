@@ -63,7 +63,7 @@
 	{
 		// {1} = credits | {2} = luckpercentage | {3} = totalcredits | {4} = timeleft | {5} = CreditsName
 		"#format"	"{1:i},{2:.2f},{3:i},{4:i},{5:t}"
-		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your luck: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
+		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
 		"fr"		"Votre mise: <font color='#ffbb00'>{1} {5}</font><br/>Votre chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Temps restant: <font color='#FF0000'>{4}</font>"
 	}
 	
@@ -85,7 +85,7 @@
 	{
 		// {1} = playername | {2} = totalcredits | {3} = luck | {4} = CreditsName
 		"#format"	"{1:s},{2:i},{3:.2f},{4:t}"
-		"en"	"{purple}[Bet]{default} {blue}{1}{default} won {green}{2}{default} {4} with {purple}{3}%%%%{default} luck!"
+		"en"	"{purple}[Bet]{default} {blue}{1}{default} won {green}{2}{default} {4} with {purple}{3}%%%%{default} chance!"
 		"fr"	"{purple}[Bet]{default} {blue}{1}{default} a gagné {green}{2}{default} {4} avec {purple}{3}%%%%{default} de chance !"
 	}
 	
