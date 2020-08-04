@@ -3,14 +3,12 @@
 #include <halflife>
 #define REQUIRE_PLUGIN
 #include <colorvariables>
-#include <myjailshop>
 #include <store>
 
 /*
 this plugin needs:
 - FixHintColorMessages.smx by Franc1sco
 - colorvariables.inc
-- myjailshop
 - zephyrus store
 
 Compiled using SM 1.8 - higher versions cannot compile due to Zeph store being outdated
@@ -38,7 +36,7 @@ public Plugin myinfo =
 	name = "Zeph store betting",
 	author = "azalty/rlevet",
 	description = "Allows players to bet credits. The more you bet, the more chances you have of winning.",
-	version = "1.0.1",
+	version = "1.0.2",
 	url = "github.com/rlevet/sm-zephstore-bet"
 }
 
