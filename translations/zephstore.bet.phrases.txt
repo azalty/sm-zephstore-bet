@@ -1,0 +1,97 @@
+"Phrases"
+{
+	// allows you to customise your currency name, for zeph store, I personally use a different currency name
+	"CreditsName"
+	{
+		"en"	"credits"
+		"fr"	"crédits"
+	}
+	
+	"NoBet"
+	{
+		"en"	"{purple}[Bet]{default} Bets are closed! Wait for the start of the next round!"
+		"fr"	"{purple}[Bet]{default} Les paris sont fermés ! Rendez-vous au début du prochain round !"
+	}
+
+	"Usage"
+	{
+		// {1} = CreditsName
+		"#format"	"{1:t}"
+		"en"		"[SM] Usage: {purple}!bet {default}(amount of {1})"
+		"fr"		"[SM] Utilisation: {purple}!bet {default}(nombre de {1})"
+	}
+	
+	"Advert"
+	{
+		// {1} = CreditsName
+		"#format"	"{1:t}"
+		"en"		"{purple}[Bet] {default}You can bet {1} with !bet, try your luck!"
+		"fr"		"{purple}[Bet] {default}Vous pouvez parier des {1} avec !bet, tentez votre chance !"
+	}
+	
+	"WaitABit"
+	{
+		"en"	"{lightred}Wait a bit before betting again."
+		"fr"	"{lightred}Attendez un peu avant surenchérir."
+	}
+	
+	"NotEnough"
+	{
+		// {1} = CreditsName
+		"#format"	"{1:t}"
+		"en"		"{lightred}You do not have enough {1}!"
+		"fr"		"{lightred}Vous n'avez pas assez de {1} !"
+	}
+	
+	"FirstBet"
+	{
+		// {1} = playername - {2} = credits - {3} = luckpercentage - {4} = totalcredits | {5} = CreditsName
+		"#format"	"{1:s},{2:i},{3:.2f},{4:i},{5:t}"
+		"en"		"{purple}[Bet] {blue}{1} {default}has bet {green}{2}{default} {5} (Chance: {purple}{3}%%%% {default}- TOTAL: {4})."
+		"fr"		"{purple}[Bet] {blue}{1} {default}a parié {green}{2}{default} {5} (Chance: {purple}{3}%%%% {default}- TOTAL: {4})."
+	}
+	
+	"NextBet"
+	{
+		// {1} = playername | {2} = credits | {3} = firstbet+nextbet credits | {4} = luckpercentage | {5} = totalcredits | {6} = CreditsName
+		"#format"	"{1:s},{2:i},{3:i},{4:.2f},{5:i},{6:t}"
+		"en"		"{purple}[Bet] {blue}{1}{default} added {green}{2}{default} {6} to his bet (now at {green}{3}{default} {6}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
+		"fr"		"{purple}[Bet] {blue}{1}{default} a rajouté {green}{2}{default} {6} à sa mise (maintenant à {green}{3}{default} {6}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
+	}
+	
+	"HintboxText"
+	{
+		// {1} = credits | {2} = luckpercentage | {3} = totalcredits | {4} = timeleft | {5} = CreditsName
+		"#format"	"{1:i},{2:.2f},{3:i},{4:i},{5:t}"
+		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your luck: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
+		"fr"		"Votre mise: <font color='#ffbb00'>{1} {5}</font><br/>Votre chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Temps restant: <font color='#FF0000'>{4}</font>"
+	}
+	
+	"WinnerAlone"
+	{
+		"en"	"{purple}[Bet]{default} You were the only one to bet, so your bet has been refunded."
+		"fr"	"{purple}[Bet]{default} Vous avez été le seul à parier, donc votre mise à été remboursée."
+	}
+	
+	"Cheater"
+	{
+		// {1} = CreditsName
+		"#format"	"{1:t}"
+		"en"	"{darkred}[Bet] You cheated by having less {1} than what you bet. Your odds have been automatically set to 0."
+		"fr"	"{darkred}[Bet] Vous avez triché en ayant moins de {1} que ce que vous avez parié. Vos chances ont été automatiquement mises à 0."
+	}
+	
+	"Winner"
+	{
+		// {1} = playername | {2} = totalcredits | {3} = luck | {4} = CreditsName
+		"#format"	"{1:s},{2:i},{3:.2f},{4:t}"
+		"en"	"{purple}[Bet]{default} {blue}{1}{default} won {green}{2}{default} {4} with {purple}{3}%%%%{default} luck!"
+		"fr"	"{purple}[Bet]{default} {blue}{1}{default} a gagné {green}{2}{default} {4} avec {purple}{3}%%%%{default} de chance !"
+	}
+	
+	"WinnerDisconnected"
+	{
+		"en"	"{purple}[Bet]{lightred} The winner disconnected, all players' bets have been refunded."
+		"fr"	"{purple}[Bet]{lightred} Le gagnant s'est déconnecté, les mises de tous les joueurs ont été remboursées."
+	}
+}
