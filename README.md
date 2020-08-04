@@ -11,3 +11,12 @@ So, this can only played with at least 2 players.
 ### Configs?
 All configs are in cfg/sourcemod/plugin.zephstore_bet.cfg (generated after plugin is loaded for the first time)\
 All translations are in translations/zephstore.bet.phrases.txt
+
+### Required
+To work:
+- [FixHintColorMessages.smx by Franc1sco](https://github.com/Franc1sco/FixHintColorMessages)
+- zephyrus store
+
+To compile:
+- colorvariables.inc
+- zephyrus store
