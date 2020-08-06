@@ -53,18 +53,18 @@
 	
 	"NextBet"
 	{
-		// {1} = playername | {2} = credits | {3} = firstbet+nextbet credits | {4} = luckpercentage | {5} = totalcredits | {6} = CreditsName
+		// {1} = playername | {2} = credits | {3} = firstbet+nextbet credits | {4} = luckpercentage | {5} = totalcredits | {6} = CreditsName | {7} = CreditsName (again)
 		"#format"	"{1:s},{2:i},{3:i},{4:.2f},{5:i},{6:t}"
-		"en"		"{purple}[Bet] {blue}{1}{default} added {green}{2}{default} {6} to his bet (now at {green}{3}{default} {6}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
-		"fr"		"{purple}[Bet] {blue}{1}{default} a rajouté {green}{2}{default} {6} à sa mise (maintenant à {green}{3}{default} {6}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
+		"en"		"{purple}[Bet] {blue}{1}{default} added {green}{2}{default} {6} to his bet (now at {green}{3}{default} {7}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
+		"fr"		"{purple}[Bet] {blue}{1}{default} a rajouté {green}{2}{default} {6} à sa mise (maintenant à {green}{3}{default} {7}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
 	}
 	
 	"HintboxText"
 	{
-		// {1} = credits | {2} = luckpercentage | {3} = totalcredits | {4} = timeleft | {5} = CreditsName
+		// {1} = credits | {2} = luckpercentage | {3} = totalcredits | {4} = timeleft | {5} = CreditsName | {6} = CreditsName (again)
 		"#format"	"{1:i},{2:.2f},{3:i},{4:i},{5:t}"
-		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
-		"fr"		"Votre mise: <font color='#ffbb00'>{1} {5}</font><br/>Votre chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {5}</font><br/>Temps restant: <font color='#FF0000'>{4}</font>"
+		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {6}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
+		"fr"		"Votre mise: <font color='#ffbb00'>{1} {5}</font><br/>Votre chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {6}</font><br/>Temps restant: <font color='#FF0000'>{4}</font>"
 	}
 	
 	"WinnerAlone"
