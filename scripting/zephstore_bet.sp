@@ -36,7 +36,7 @@ public Plugin myinfo =
 	name = "Zeph store betting",
 	author = "azalty/rlevet",
 	description = "Allows players to bet credits. The more you bet, the more chances you have of winning.",
-	version = "1.0.2",
+	version = "1.0.3",
 	url = "github.com/rlevet/sm-zephstore-bet"
 }
 
@@ -168,7 +168,7 @@ public Action Command_Bet(int client, int args)
 		float luck = (float(betAmount[client])/betTotalAmount)*100.0; // float with int, or int with float, else it will round
 		float curtime = GetGameTime();
 		int timeleft = RoundFloat((betTime+60-curtime)); // calculates timeleft for betting
-		PrintHintText(client, "%t", "HintboxText", betAmount[client], luck, betTotalAmount, timeleft, "CreditsName");
+		PrintHintText(client, "%t", "HintboxText", betAmount[client], luck, betTotalAmount, timeleft, "CreditsName", "CreditsName");
 		
 		char name[32];
 		GetClientName(client, name, sizeof(name));
@@ -179,7 +179,7 @@ public Action Command_Bet(int client, int args)
 		}
 		else // second,third... bet (you can bet more!)
 		{
-			CPrintToChatAll("%T", "NextBet", LANG_SERVER, name, myBetAmount, betAmount[client], luck, betTotalAmount, "CreditsName");
+			CPrintToChatAll("%T", "NextBet", LANG_SERVER, name, myBetAmount, betAmount[client], luck, betTotalAmount, "CreditsName", "CreditsName");
 		}
 		
 		if (!(betHinttextTimer[client])) // if hinttext is not showing, show it
@@ -320,7 +320,7 @@ public Action betHinttext(Handle timer, int client)
 	float luck = (float(betAmount[client])/betTotalAmount)*100.0;
 	float curtime = GetGameTime();
 	int timeleft = RoundFloat((betTime+60-curtime));
-	PrintHintText(client, "%t", "HintboxText", betAmount[client], luck, betTotalAmount, timeleft, "CreditsName");
+	PrintHintText(client, "%t", "HintboxText", betAmount[client], luck, betTotalAmount, timeleft, "CreditsName", "CreditsName");
 
 	return Plugin_Continue;
 }
