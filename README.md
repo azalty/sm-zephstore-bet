@@ -22,3 +22,5 @@ To work:
 To compile:
 - colorvariables.inc
 - zephyrus store
+
+[Alliedmodders page](https://forums.alliedmods.net/showthread.php?t=326604)
