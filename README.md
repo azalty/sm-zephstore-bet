@@ -16,6 +16,7 @@ All translations are in translations/zephstore.bet.phrases.txt
 To work:
 - [FixHintColorMessages.smx by Franc1sco](https://github.com/Franc1sco/FixHintColorMessages)
 - zephyrus store
+- CS:GO (should work with other source games, but you will have to remove FixHintColorMessages)
 
 To compile:
 - colorvariables.inc
