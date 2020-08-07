@@ -1,5 +1,6 @@
 # sm-zephstore-bet
-A plugin that allows players to bet credits. The more you bet, the more chances you have of winning.
+A plugin that allows players to bet credits. The more you bet, the more chances you have of winning.\
+EDIT: It's called Jackpot, my bad
 
 ### How does it works?
 At the start of every round, people can type !bet (amount) to bet an amount of credits (zephyrus store credits).\
