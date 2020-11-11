@@ -5,12 +5,14 @@
 	{
 		"en"	"credits"
 		"fr"	"crédits"
+		"ru"	"кредитов"
 	}
 	
 	"NoBet"
 	{
 		"en"	"{purple}[Bet]{default} Bets are closed! Wait for the start of the next round!"
 		"fr"	"{purple}[Bet]{default} Les paris sont fermés ! Rendez-vous au début du prochain round !"
+		"ru"	"{purple}[Bet]{default} Ставки закрыты! Ждите начала следующего раунда!"
 	}
 
 	"Usage"
@@ -19,6 +21,7 @@
 		"#format"	"{1:t}"
 		"en"		"[SM] Usage: {purple}!bet {default}(amount of {1})"
 		"fr"		"[SM] Utilisation: {purple}!bet {default}(nombre de {1})"
+		"ru"		"[SM] Использование: {purple}!bet {default}(количество из {1})"
 	}
 	
 	"Advert"
@@ -27,12 +30,14 @@
 		"#format"	"{1:t}"
 		"en"		"{purple}[Bet] {default}You can bet {1} with !bet, try your luck!"
 		"fr"		"{purple}[Bet] {default}Vous pouvez parier des {1} avec !bet, tentez votre chance !"
+		"ru"		"{purple}[Bet] {default}Вы можете делать ставки из {1} написав !bet, испытайте удачу!"
 	}
 	
 	"WaitABit"
 	{
 		"en"	"{lightred}Wait a bit before betting again."
 		"fr"	"{lightred}Attendez un peu avant surenchérir."
+		"ru"	"{lightred}Подождите немного, прежде чем снова делать ставки."
 	}
 	
 	"NotEnough"
@@ -41,6 +46,7 @@
 		"#format"	"{1:t}"
 		"en"		"{lightred}You do not have enough {1}!"
 		"fr"		"{lightred}Vous n'avez pas assez de {1} !"
+		"ru"		"{lightred}У вас недостаточно {1}!"
 	}
 	
 	"FirstBet"
@@ -49,6 +55,7 @@
 		"#format"	"{1:s},{2:i},{3:.2f},{4:i},{5:t}"
 		"en"		"{purple}[Bet] {blue}{1} {default}has bet {green}{2}{default} {5} (Chance: {purple}{3}%%%% {default}- TOTAL: {4})."
 		"fr"		"{purple}[Bet] {blue}{1} {default}a parié {green}{2}{default} {5} (Chance: {purple}{3}%%%% {default}- TOTAL: {4})."
+		"ru"		"{purple}[Bet] {blue}{1} {default}сделал ставку {green}{2}{default} {5} (Шанс: {purple}{3}%%%% {default}- ВСЕГО: {4})."
 	}
 	
 	"NextBet"
@@ -57,6 +64,7 @@
 		"#format"	"{1:s},{2:i},{3:i},{4:.2f},{5:i},{6:t},{7:t}"
 		"en"		"{purple}[Bet] {blue}{1}{default} added {green}{2}{default} {6} to his bet (now at {green}{3}{default} {7}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
 		"fr"		"{purple}[Bet] {blue}{1}{default} a rajouté {green}{2}{default} {6} à sa mise (maintenant à {green}{3}{default} {7}) (Chance: {purple}{4}%%%%{default} - TOTAL: {5})."
+		"ru"		"{purple}[Bet] {blue}{1}{default} добавил {green}{2}{default} {6} в его ставку (сейчас на {green}{3}{default} {7}) (Шанс: {purple}{4}%%%%{default} - ВСЕГО: {5})."
 	}
 	
 	"HintboxText"
@@ -65,12 +73,14 @@
 		"#format"	"{1:i},{2:.2f},{3:i},{4:i},{5:t},{6:t}"
 		"en"		"Your bet: <font color='#ffbb00'>{1} {5}</font><br/>Your chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {6}</font><br/>Time left: <font color='#FF0000'>{4}</font>"
 		"fr"		"Votre mise: <font color='#ffbb00'>{1} {5}</font><br/>Votre chance: <font color='#00ff00'>{2}%%</font><br/>Total: <font color='#e100ff'>{3} {6}</font><br/>Temps restant: <font color='#FF0000'>{4}</font>"
+		"ru"		"Ваша ставка: <font color='#ffbb00'>{1} {5}</font><br/>Ваш шанс: <font color='#00ff00'>{2}%%</font><br/>Всего: <font color='#e100ff'>{3} {6}</font><br/>Времени осталось: <font color='#FF0000'>{4}</font>"
 	}
 	
 	"WinnerAlone"
 	{
 		"en"	"{purple}[Bet]{default} You were the only one to bet, so your bet has been refunded."
 		"fr"	"{purple}[Bet]{default} Vous avez été le seul à parier, donc votre mise à été remboursée."
+		"ru"	"{purple}[Bet]{default} Вы были единственным, кто сделал ставку, поэтому ваша ставка была возвращена."
 	}
 	
 	"Cheater"
@@ -79,6 +89,7 @@
 		"#format"	"{1:t}"
 		"en"	"{darkred}[Bet] You cheated by having less {1} than what you bet. Your odds have been automatically set to 0."
 		"fr"	"{darkred}[Bet] Vous avez triché en ayant moins de {1} que ce que vous avez parié. Vos chances ont été automatiquement mises à 0."
+		"ru"	"{darkred}[Bet] Вы обманываете, имея меньше {1}, чем вы поставили. Ваши шансы были автоматически установлены на 0."
 	}
 	
 	"Winner"
@@ -87,11 +98,13 @@
 		"#format"	"{1:s},{2:i},{3:.2f},{4:t}"
 		"en"	"{purple}[Bet]{default} {blue}{1}{default} won {green}{2}{default} {4} with {purple}{3}%%%%{default} chance!"
 		"fr"	"{purple}[Bet]{default} {blue}{1}{default} a gagné {green}{2}{default} {4} avec {purple}{3}%%%%{default} de chance !"
+		"ru"	"{purple}[Bet]{default} {blue}{1}{default} выиграл {green}{2}{default} {4} с {purple}{3}%%%%{default} шансом!"
 	}
 	
 	"WinnerDisconnected"
 	{
 		"en"	"{purple}[Bet]{lightred} The winner disconnected, all players' bets have been refunded."
 		"fr"	"{purple}[Bet]{lightred} Le gagnant s'est déconnecté, les mises de tous les joueurs ont été remboursées."
+		"ru"	"{purple}[Bet]{lightred} Победитель отключился, все ставки игроков возвращены."
 	}
 }
